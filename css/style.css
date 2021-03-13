@@ -1,0 +1,251 @@
+/* Comentário */
+
+
+/* DESKTOP FIRST 1920 px */
+
+
+/* GERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    /* faz o reset do rem */
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    background-color: rgb(240, 215, 236);
+}
+
+
+/* LAYOUT */
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+
+/* FONTES */
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* BOTÃO */
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn-branco {
+    color: rgb(207, 64, 88);
+    background-color: white;
+}
+
+.btn-roxo {
+    display: block auto;
+    color: white;
+    border: 2px solid hsl(325, 50%, 58%);
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #c95d9c;
+}
+
+
+/*UTILIDADES*/
+
+.u-margin-bottom-peq {
+    margin-bottom: 2rem;
+}
+
+
+/* HEADER BANNER */
+
+.banner {
+    background: url(../img/juli1.png) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 21rem;
+    color: white;
+}
+
+.banner__titulo {
+    font-size: 4rem;
+}
+
+.banner__subtitulo {
+    font-size: 2.6rem;
+    padding-top: 3rem;
+    font-style: italic;
+}
+
+
+/*SEÇÃO SOBRE */
+
+.sobre__titulo {
+    font-size: 5rem;
+    padding: 0;
+    font-style: initial;
+    color: #b49d9dcb;
+}
+
+.sobre-descricao {
+    width: 55%;
+    display: inline-block;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.sobre-descricao__texto {
+    text-align: justify;
+}
+
+.sobre-habilidades__titulo {
+    width: 100%;
+    display: inline-block;
+    line-height: 1;
+    font-size: 2rem;
+    color: rgb(185, 29, 159);
+    padding-left: 2rem;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.sobre-descricao__destaque {
+    font-size: 2rem;
+    color: rgb(185, 29, 159);
+    text-align: center;
+}
+
+.sobre-descrição__bottom {
+    text-align: center;
+}
+
+.sobre-habilidades {
+    margin-left: 0;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.sobre-habilidades__lista {
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 2rem;
+    color: rgba(49, 32, 59, 0.445);
+    margin-left: 4rem;
+    font-weight: bolder;
+}
+
+li {
+    letter-spacing: 1px;
+    list-style: none;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: "\2764";
+    color: rgb(233, 34, 200);
+    margin-right: 20px;
+}
+
+
+/* REDES SOCIAIS */
+
+.footer {
+    text-align: center;
+}
+
+.redes-sociais__link {
+    display: inline-block;
+    width: 15%;
+    margin: 0 3.5rem;
+    text-align: center;
+    color: white;
+    background: rosybrown;
+    border-radius: 40%;
+    padding: 2rem;
+}
+
+.redes-sociais__titulo {
+    margin-bottom: .5rem;
+}
+
+.footer__copyright {
+    margin-top: 5rem;
+    color: rgb(109, 31, 31);
+    font-weight: normal;
+}
+
+
+/* MEDIA QUERIES */
+
+
+/* TABLET PAISAGEM */
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 4rem;
+    }
+}
+
+
+/* TABLET PAISAGEM / CELULAR */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 0 10rem;
+    }
+    .sobre-descricao,
+    .sobre-habilidades {
+        width: 100%;
+    }
+    .sobre-habilidades {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    .redes-sociais__link {
+        width: 100%;
+        max-width: 200px;
+        padding: 2rem 0;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 5rem;
+    }
+}
