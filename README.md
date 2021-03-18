@@ -1,5 +1,5 @@
-#  **TodasEmTech - Workshop Reprograma 2021.1 - Página Pessoal** :raising_hand: 
- 
+
+#  **TodasEmTech - Workshop Reprograma 2021.1 - Página Pessoal** :raising_hand:
 ## **Sobre o Reprograma**
 
 >"A [{reprograma}](https://reprograma.com.br/)  é uma iniciativa de impacto social que foca em ensinar programação para mulheres cis e trans que não têm recursos e/ou oportunidades para aprender a programar." *(-Reprograma)*
@@ -20,7 +20,5 @@
 * HTML :white_check_mark:
 
  :point_right: [CLIQUE AQUI PARA UMA PRÉ-VISUALIZAÇÃO DA PÁGINA](https://julianereprograma.netlify.app).
-
-
 
 
