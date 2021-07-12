@@ -6,7 +6,7 @@
 
 ## **Sobre o Workshop** 
 
-#### Esta organização promoveu um workshop em fevereiro/2021 para selecionar futuras alunas. Sendo assim, este projeto foi uma atividade de seleção que desenvolvi durante o workshop, e remudelei  e estilizei após o término do evento. 
+#### Esta organização promoveu um workshop em fevereiro/2021 para selecionar futuras alunas. Sendo assim, este projeto foi uma atividade de seleção que desenvolvi durante o workshop, e remodelei  e estilizei após o término do evento. 
 
 ## **Sobre o projeto**  :computer:
 
